@@ -14,9 +14,7 @@
     pr_body: "This is an automated 'pull_request' containing the latest release from the upstream repo.\nPlease review the 'files changed' tab to review changes."
 
   permissions:
-    id-token: write
     contents: write
-    actions: write
     pull-requests: write
 
   jobs:
